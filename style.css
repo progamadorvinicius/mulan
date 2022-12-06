@@ -198,12 +198,30 @@ header .logo img
     display: flex;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(20px);
+    visibility: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer.active
+{
+    visibility: visible;
+    opacity: ;
 }
 .trailer video
 {
     max-width: 900px;
     outline: none;
-    
+}
+.close
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+
 }
 
 
